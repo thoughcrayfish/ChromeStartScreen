@@ -1,0 +1,72 @@
+.settings {
+    transform: translateX(-100%);
+    transition: transform 0.5s;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+ }
+ .settings-open.settings {
+    transform: none;
+ }
+ input {
+    padding: 5px;
+    font-size: 12px;
+    width: 300px;
+    height: 20px;
+    border-radius: 5px; 
+ }
+ input_search {
+    padding: 5px;
+    font-size: 209px;
+    width: 500px;
+    height: 30px;
+    border-radius: 15px; 
+ }
+ 
+ button {
+    height: 30px;
+    width: 70px;
+    background: #311B92; /* This removes the default background */
+    color: white;
+    border: 1px solid #313131;
+    border-radius: 50px; /* This gives our button rounded edges */
+    font-size: 12px;
+    cursor: pointer;
+ }
+ form {
+    padding-top: 40px;
+ }
+ .search-container
+ {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+ .greeting-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+ .greeting {
+    font-family: Roboto, Helvetica Neue;
+    font: small;
+    font-size: 90px;
+    color: BDBDBD;
+ }
+ /* .time-container {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+ }
+ .time {
+    font-family: Roboto, Helvetica Neue;
+    font: small;
+    font-size: 40px;
+    color: BDBDBD;
+ } */
+ body {
+    background-color: #212121;
+ }
+ html {
+    height: 100%;
+ }
